@@ -61,6 +61,7 @@ header {
 }
 
 .header-text h1 {
+  width: 490px;
   margin: 0; /* Remove default margin for the h1 element */
   font-size: 30px;
   
@@ -184,11 +185,11 @@ header {
 
 /* Hero Section Styles */
 .hero {
-  background: linear-gradient(135deg, rgba(255, 208, 208, 0.5), rgba(255, 255, 255, 0.5)), url("samp1.jpg");
+  background: linear-gradient(135deg, rgba(255, 285, 208, 1.0), rgba(255, 255, 255, 0.5)), url("samp1.jpg");
   background-size: cover;
   color: #fff;
   text-align: center;
-  padding: 230px 500px;
+  padding: 239px 439px;
   transition: background-image 0.5s ease;
 }
 

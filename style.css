@@ -1,0 +1,261 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+.alpha {
+  padding: 0px 548px;
+  font-size: 43px;
+}*/
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+
+header {
+  background-color: #34495e;
+  color: #fff;
+  padding: 10px 0; /* Increase padding for better spacing */
+  text-align: center; /* Center-align the text within the header */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  /* Align logo and nav links */
+  align-items: center; /* Center vertically within the header */
+}
+
+
+
+.logo {
+  display: flex; /* Make the logo and text appear inline */
+  align-items: center; /* Center vertically within the logo container */
+  margin-left: 10px; /* Add margin for spacing */
+}
+
+.logo-img {
+  width: 65px; /* Set the width for the logo */
+  margin-right: 10px; /* Add margin for spacing between logo and text */
+}
+
+.header-text {
+  flex-grow: 1; 
+  /* Allow the text to grow and take up available space */
+}
+
+.header-text h1 {
+  margin: 0; /* Remove default margin for the h1 element */
+  font-size: 30px;
+  
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  font-size: 19px;
+  display: inline;
+  margin-right: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*
+header {
+  background-color: #34495e;
+  color: #fff;
+  padding: 0.3px 0;
+}
+
+.brand img {
+  width: 100px;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  font-size: 19px;
+  display: inline;
+  margin-right: 30px;
+  display: inline-block;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+}*/
+
+/* Hero Section Styles */
+.hero {
+  background-image: url("samp1.jpg");
+  background-size: cover;
+  color: #0f253ac4;
+  text-align: center;
+  padding: 100px 0;
+}
+
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #0f253ac4;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #0f253ac4;
+}
+
+/* Feature Section Styles */
+.features {
+  background-color: #ffffff;
+  padding: 40px 0;
+}
+
+.features h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.feature-card {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.feature-card i {
+  font-size: 48px;
+  color: #3498db;
+}
+
+/* Contact Section Styles */
+.contact {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #34495e;
+  color: #fff;
+}
+
+/* Add CSS for smoother transitions */
+/* Header Styles */
+header {
+  transition: background-color 0.5s ease;
+}
+
+/* Hero Section Styles */
+.hero {
+  background: linear-gradient(135deg, rgba(255, 208, 208, 0.5), rgba(255, 255, 255, 0.5)), url("samp1.jpg");
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 230px 500px;
+  transition: background-image 0.5s ease;
+}
+
+/* Feature Section Styles */
+.features {
+  background-color: #fff;
+  padding: 40px 0;
+  align-items: center;
+}
+.feature h2 {
+  margin-bottom: 30px;
+}
+.features h2:hover {
+  color: rgba(0, 0, 0, 0.804);
+  transform: translateY(-2px);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.feature-cards {
+  display: flex;
+  justify-content: center;
+}
+.feature-card {
+  text-align: center;
+  margin: 0 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  background-color: #51f19969;
+  cursor: pointer;
+}
+
+/* Contact Section Styles */
+.contact {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 40px 0;
+}
+.contact p {
+  margin-bottom: 20px;
+}
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #34495e;
+  color: #fff;
+}
+
+/* Add CSS for button hover effect */
+.cta-button {
+  background-color: #27c06ce3;
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 43px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #3498db;
+}

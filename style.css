@@ -185,7 +185,7 @@ header {
 
 /* Hero Section Styles */
 .hero {
-  background: linear-gradient(135deg, rgba(255, 285, 208, 1.0), rgba(255, 255, 255, 0.5)), url("samp1.jpg");
+  background: linear-gradient(135deg, rgb(221, 234, 249), rgba(223, 236, 228, 0.5)), url("samp1.jpg");
   background-size: cover;
   color: #fff;
   text-align: center;
